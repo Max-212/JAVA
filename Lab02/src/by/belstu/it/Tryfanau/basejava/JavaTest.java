@@ -1,4 +1,6 @@
 package by.belstu.it.Tryfanau.basejava;
+import java.sql.ResultSet;
+
 import static java.lang.Math.*;
 
 public class JavaTest {
@@ -41,6 +43,8 @@ public class JavaTest {
         System.out.println(round(E));
         System.out.println(min(PI, E));
         System.out.println(Math.random());
+        Typetester.printType(testVar1);
+
 
         int unBoxingInt = 9;
         Integer boxingInt = new Integer(unBoxingInt);
@@ -70,7 +74,7 @@ public class JavaTest {
 
     }
 
-    
+
 
 
 }
